@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Claude Code (.claude/)
+# Versionar: skills, agents, commands e settings compartilhados do time.
+# Ignorar: estado local, preferências pessoais e cache de sessão.
+.claude/settings.local.json
+.claude/projects/
+.claude/todos/
+.claude/sessions/
+.claude/history/
+.claude/cache/
+.claude/logs/
+.claude/*.log
+.claude/.credentials.json
+
+# GitHub (.github/)
+# Versionar: workflows, copilot-instructions.md, templates de issue/PR.
+# Ignorar: caches e artefatos locais de ferramentas.
+.github/**/*.cache
+.github/**/*.log

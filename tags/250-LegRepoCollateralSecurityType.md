@@ -1,0 +1,22 @@
+[← Back to FIX 4.4 fields index](../README.md)
+
+> Source: [OnixS FIX 4.4 — tag 250](https://www.onixs.biz/fix-dictionary/4.4/tagNum_250.html)
+
+# FIX 4.4 : LegRepoCollateralSecurityType <250> field
+
+**Type:** [String](https://www.onixs.biz/fix-dictionary/4.4/index.html#String)
+
+## Description
+
+*** DEPRECATED FIELD - See [Appendix 6-E: 5.Deprecated various FIX 4.3-introduced "Repo" Fields [deprecated in FIX 4.4]](https://www.onixs.biz/fix-dictionary/4.4/app_6_e.html#5) ***
+
+Multileg instrument's individual leg security's RepoCollateralSecurityType.
+
+See [RepoCollateralSecurityType <239>](https://www.onixs.biz/fix-dictionary/4.4/tagNum_239.html) field for description
+
+(Note tag # was reserved in FIX 4.1, added in FIX 4.3)
+
+## Used In
+
+- [<InstrumentLeg>](https://www.onixs.biz/fix-dictionary/4.4/compBlock_InstrumentLeg.html)
+
